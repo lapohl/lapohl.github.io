@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LP Portfolio - Projects</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'scripts/styles_projects.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  </head>
+  <body id="body" >
+    <nav id="top-wrapper">
+      <ul class="topbar-nav">
+        <li class="topbar-nav-item"><a class='top-menu-nav-button' href="index.html">Home</a></li>
+        <li class="topbar-nav-item"><a class='top-menu-nav-button' href="projects.html">Projects</a></li>
+        <li class="topbar-nav-item"><a class='top-menu-nav-button' href="links.html">Links</a></li>
+        <li class="topbar-nav-item"><a class='top-menu-nav-button' href="download.html">Download Resume</a></li>
+      </ul>
+    </nav> 
+    <div class="project-wrapper">
+      Golf Course Maintenance Dash<br>
+      <div class="link"><a class="source-button" href="https://github.com/lapohl/Golf_Dash"><img class="img-button" src="{% static 'assets/img/Golf_dash.png' %}" alt="GitHub Repo" height="200"></a>
+      </div>
+    </div>
+    <div class="project-wrapper">
+      Not Quite Beatable TicTacToe Machine<br>
+      <div class="link"><a class="source-button" href="https://github.com/lapohl/JS_Games"><img class="img-button" src="{% static 'assets/img/TTT.png' %}" alt="GitHub Repo" height="300"></a>
+      </div>
+    </div>
+  </body>
+</html>
