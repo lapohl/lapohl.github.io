@@ -1,0 +1,102 @@
+body
+{
+  font-family: 'Josefin Sans', sans-serif;
+  color:				#470D21;
+  background-color:		#F9E4D4;
+  
+}
+
+h1
+{
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  margin-top: 17%;
+  margin-bottom: 5%;
+  color:				#D67D3E;
+  text-shadow:		2px -2px #9C0F48;
+}
+
+h2
+{
+  font-size: 	2em;
+  display: 		flex;
+  justify-content: center;
+  margin-top: 	5px;
+  margin-bottom: 	2%;
+  color:				#D67D3E;
+  text-shadow:		1px -1px #9C0F48;
+}
+
+.spacer
+{
+  margin-top:	12%;
+  margin-bottom:	12%;
+}
+
+.section-wrapper
+{
+  display:		flex;
+  justify-content: center;
+  margin-bottom: 	10%; 
+}
+
+.link
+{
+  margin-right: 	2%;
+}
+
+.project-wrapper
+{
+  margin-bottom: 	10%; 
+  margin-top: 	1%; 
+  display:		flex;
+  justify-content: center;
+  margin-left:	0%;
+}
+
+.project-title
+{
+  font-size:		1.75em;
+  display:		flex;
+  justify-content: center;
+  margin-top:     5%;
+}
+
+.project-link 
+{
+  margin-top:	2%;
+  margin-left:	3%;
+}
+
+.project-desc 
+{
+  font-size:		1.25em;
+  margin-left:	10%;
+  margin-top:	3%;
+  width:		40%;
+
+}
+
+.rounded-pic
+{
+  border-radius:	10%;
+}
+
+h3
+{
+  display: 		flex;
+  justify-content: center;
+  margin-top: 	5px;
+  margin-bottom: 	5px;
+}
+
+h4
+{
+  font-size: 	2em;
+  display: 		flex;
+  justify-content: center;
+  margin-top: 	5px;
+  margin-bottom: 	2%;
+}
+ 
