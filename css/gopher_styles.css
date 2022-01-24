@@ -1,0 +1,69 @@
+body 
+{  
+  background-color: #DFD3C3;  
+  margin: 0 10%;  
+  font-family: 'Road Rage', cursive;
+  color: #00541A;
+
+
+  }
+
+h1 
+{  
+  text-align: center;
+  margin-top: 10px;
+  font-size: 10em;
+  margin-bottom: 0px;
+} 
+
+h2 
+{  
+  text-align: center;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.google-button-wrapper
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.logo-wrapper
+{
+  margin-top:15px;
+}
+
+.video-wrapper
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.menu-picture-wrapper
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.picture-wrapper
+{
+  margin-left: 10px;
+}
+
+.rounded-picture
+{
+  border-radius:	10%;
+}
+
+.rounded-picture-large
+{
+  border-radius:	3%;
+}
