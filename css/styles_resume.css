@@ -1,0 +1,131 @@
+body
+{
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #219ebc;
+  color: #ffb703;
+}
+
+.center
+{
+  text-align: center;
+
+}
+
+ol 
+{
+  list-style-type: 	none;
+}
+
+#contact-info
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 50%;
+	float: top;
+}
+
+#header, #summary, #education, #skills, #experience
+{
+	border: 5px solid #fb8500;
+	border-radius: 20px;
+	background-color: #023047;
+	text-align: center;
+	margin-top: 10px;
+
+
+}
+
+#contact-info, #skill-ind, .school, .work
+{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 10px;
+
+
+}
+
+#contact-info > div, #skill-ind > div, #school-ind > div, #exp-ind > div
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+#name, h2
+{
+	width: 100%;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+
+
+.school
+{
+	width: inherit;
+	height: 50px;
+	align-items: center;
+	
+}
+
+.degree
+{
+	width: 15%;
+
+}
+
+.program
+{
+	width: 25%;
+}
+
+.school-name
+{
+	width: 40%;
+
+}
+
+.work
+{	
+	width: inherit;
+	height: 75px;	
+	align-items: center;
+}
+
+.role
+{
+	width:  20%;
+}
+
+.company
+{
+	width: 20%;
+}
+
+.description
+{
+	width: 40%;
+}
+
+.company-years
+{
+	padding-left: 5%;
+}
+		
+#gitprof-link
+{
+	text-decoration: none;
+  	color: #ffb703;
+}
+
+#summary-text
+{
+	padding-left: 50px;
+	padding-right: 50px;
+}	
+
+#gitprof-link:hover
+{
+	color: white;
+}
