@@ -1,0 +1,78 @@
+body {
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #03440c;
+  background-color: #ebf2fa;
+}
+
+a {
+  text-decoration: none;
+  color: #03440c;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+#page-info-section {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.section {
+  column-gap: 0.5%;
+  grid-column: 1 / span 2;
+  display: flex;
+
+}
+
+#banner{
+  background-color: #03440c;
+  color:#ebf2fa;
+  padding: 2%;
+}
+
+.sub-section {
+  width: 50%;
+  margin: 2%;
+}
+
+#nav-bar {
+  margin: 4%;
+
+}
+
+#top-section {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.nav-button {
+  margin-left: 2%;
+  margin-right: 2%;
+font-size: 2vw;
+}
+
+p{
+  font-size: 2vw;
+}
+h2{
+font-size: 4vw;
+}
+
+h3{
+  font-size: 3vw;
+}
+h4{
+  font-size: 2vw;
+}
+
+.image-section{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+}

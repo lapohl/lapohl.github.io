@@ -1,0 +1,192 @@
+body
+{
+  font-family: 'Josefin Sans', sans-serif;
+  color:				#470D21;
+  background-color:		#F9E4D4;
+  text-align: center;
+}
+
+h1
+{
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  margin-top: 17%;
+  margin-bottom: 5%;
+  color:				#D67D3E;
+  text-shadow:		2px -2px #9C0F48;
+}
+
+h2
+{
+  font-size: 	2em;
+  display: 		flex;
+  justify-content: center;
+  margin-top: 	5px;
+  margin-bottom: 	2%;
+  color:				#D67D3E;
+  text-shadow:		1px -1px #9C0F48;
+}
+
+.spacer
+{
+  margin-top:	5%;
+  margin-bottom:	5%;
+}
+
+#header
+{
+  margin-bottom: 10%;
+}
+
+.section-wrapper
+{
+  display:		flex;
+  justify-content: center;
+  margin-bottom: 	10%; 
+}
+
+.link
+{
+  margin-right: 	2%;
+}
+
+.project-wrapper
+{
+  margin-bottom: 	10%; 
+  margin-top: 	1%; 
+  display:		flex;
+  justify-content: center;
+  margin-left:	0%;
+}
+
+.project-title
+{
+  font-size:		1.75em;
+  display:		flex;
+  justify-content: center;
+  margin-top:     5%;
+}
+
+.project-link 
+{
+  margin-top:	2%;
+  margin-left:	3%;
+}
+
+.project-desc 
+{
+  font-size:		1.25em;
+  margin-left:	10%;
+  margin-top:	3%;
+  width:		40%;
+
+}
+
+.rounded-pic
+{
+  border-radius:	10%;
+}
+
+h3
+{
+  display: 		flex;
+  justify-content: center;
+  margin-top: 	5px;
+  margin-bottom: 	5px;
+}
+
+h4
+{
+  font-size: 	2em;
+  display: 		flex;
+  justify-content: center;
+  margin-top: 	5px;
+  margin-bottom: 	2%;
+}
+
+p{
+  font-size: 1.5em;
+}
+ 
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #F9E4D4;
+  overflow-x: hidden;
+  padding: 8px 0;
+  margin-top:		40%;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.page-info-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 10%;
+}
+
+.section {
+  column-gap: 0.5%;
+  grid-column: 1 / span 2;
+  display: flex;
+  margin-bottom: 5%;
+
+}
+
+.sub-section, .image-section, .image-section-resume {
+  width: 50%;
+  margin: 2%;
+}
+
+.sub-section{
+  margin-top: 5%;
+}
+
+img {
+  border-radius: 5%;
+}
+
+.date-right{
+  font-size: 1em;
+
+}
+
+.image-section-resume{
+  margin-top:10%;
+}
+
+.date-left{
+  font-size: 1em;
+
+}
+
+.left-section{
+  text-align:  right;
+}
+
+.right-section{
+  text-align:  left;
+}
+
+h6
+{
+  font-size: 	2em;
+  margin-top: 	5px;
+  margin-bottom: 	2%;
+  color:				#D67D3E;
+  text-shadow:		1px -1px #9C0F48;
+}

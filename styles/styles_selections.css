@@ -1,0 +1,28 @@
+body{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #14746f;
+  background-color: #ebf2fa;
+}
+
+#btn-pose{
+  text-decoration: none;
+  color: #14746f;
+  width: auto;
+  margin: auto;
+
+}
+
+#poses {
+  display: none;
+  visibilitiy: hidden;
+}
+
+#btnPlay {
+  text-decoration: none;
+  color: #14746f;
+  
+}
