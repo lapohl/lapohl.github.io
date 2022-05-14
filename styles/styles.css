@@ -1,8 +1,8 @@
 body
 {
   font-family: 'Josefin Sans', sans-serif;
-  color:				#470D21;
-  background-color:		#F9E4D4;
+  color:				#affc41;
+  background-color:		#086375;
   text-align: center;
 }
 
@@ -13,8 +13,8 @@ h1
   justify-content: center;
   margin-top: 17%;
   margin-bottom: 5%;
-  color:				#D67D3E;
-  text-shadow:		2px -2px #9C0F48;
+  color:				#affc41;
+  text-shadow:		2px -2px #1dd3b0;
 }
 
 h2
@@ -24,8 +24,8 @@ h2
   justify-content: center;
   margin-top: 	5px;
   margin-bottom: 	2%;
-  color:				#D67D3E;
-  text-shadow:		1px -1px #9C0F48;
+  color:				#1dd3b0;
+  text-shadow:		1px -1px #3c1642;
 }
 
 .spacer
@@ -115,7 +115,6 @@ p{
   z-index: 1;
   top: 20px;
   left: 10px;
-  background: #F9E4D4;
   overflow-x: hidden;
   padding: 8px 0;
   margin-top:		40%;
@@ -187,6 +186,6 @@ h6
   font-size: 	2em;
   margin-top: 	5px;
   margin-bottom: 	2%;
-  color:				#D67D3E;
-  text-shadow:		1px -1px #9C0F48;
+  color:				#1dd3b0;
+  text-shadow:		1px -1px #3c1642;
 }
